@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-13T00:50:27 EDT" name="Surefire suite" finished-at="2023-09-13T00:52:47 EDT" duration-ms="139893">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNgRunner1@5a63f509]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-13T00:50:27 EDT" name="Surefire test" finished-at="2023-09-13T00:52:47 EDT" duration-ms="139893">
+      <class name="POMproject.WebsiteTestingMay2023.BaseShoppingTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:50:49 EDT" name="launchapplication" finished-at="2023-09-13T00:50:55 EDT" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:50:55 EDT" name="submittest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:51:03 EDT" duration-ms="8290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=ind, productname=adidas original, password=123456, email=jaibirsingh1312@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:03 EDT" name="closebrowser" finished-at="2023-09-13T00:51:03 EDT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:03 EDT" name="launchapplication" finished-at="2023-09-13T00:51:14 EDT" duration-ms="10877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:14 EDT" name="submittest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:51:22 EDT" duration-ms="7756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=bri, productname=zara coat 3, password=@Ks123456, email=jaibirsingh131213@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:22 EDT" name="closebrowser" finished-at="2023-09-13T00:51:22 EDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:22 EDT" name="launchapplication" finished-at="2023-09-13T00:51:32 EDT" duration-ms="10019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="verifycarttest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:32 EDT" name="verifycarttest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:51:44 EDT" depends-on-methods="POMproject.WebsiteTestingMay2023.BaseShoppingTest.submittest" duration-ms="11313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=ind, productname=adidas original, password=123456, email=jaibirsingh1312@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycarttest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:44 EDT" name="closebrowser" finished-at="2023-09-13T00:51:44 EDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:44 EDT" name="launchapplication" finished-at="2023-09-13T00:51:51 EDT" duration-ms="6763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="verifycarttest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:51:51 EDT" name="verifycarttest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:52:02 EDT" depends-on-methods="POMproject.WebsiteTestingMay2023.BaseShoppingTest.submittest" duration-ms="11309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=bri, productname=zara coat 3, password=@Ks123456, email=jaibirsingh131213@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycarttest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:02 EDT" name="closebrowser" finished-at="2023-09-13T00:52:02 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:02 EDT" name="launchapplication" finished-at="2023-09-13T00:52:12 EDT" duration-ms="10149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="verifyordertest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:12 EDT" name="verifyordertest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:52:14 EDT" depends-on-methods="POMproject.WebsiteTestingMay2023.BaseShoppingTest.submittest" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=ind, productname=adidas original, password=123456, email=jaibirsingh1312@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyordertest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:14 EDT" name="closebrowser" finished-at="2023-09-13T00:52:14 EDT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:14 EDT" name="launchapplication" finished-at="2023-09-13T00:52:25 EDT" duration-ms="10302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="verifyordertest(java.util.HashMap)[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:25 EDT" name="verifyordertest" data-provider="getdatasubmitjson" finished-at="2023-09-13T00:52:26 EDT" depends-on-methods="POMproject.WebsiteTestingMay2023.BaseShoppingTest.submittest" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{countryname=bri, productname=zara coat 3, password=@Ks123456, email=jaibirsingh131213@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyordertest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.BaseShoppingTest@2b30a42c]" started-at="2023-09-13T00:52:26 EDT" name="closebrowser" finished-at="2023-09-13T00:52:26 EDT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- POMproject.WebsiteTestingMay2023.BaseShoppingTest -->
+      <class name="POMproject.WebsiteTestingMay2023.ErrorValidationTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:26 EDT" name="launchapplication" finished-at="2023-09-13T00:52:34 EDT" duration-ms="7932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="validateerrorcode(java.lang.String,java.lang.String)[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:34 EDT" name="validateerrorcode" data-provider="getdataerror" finished-at="2023-09-13T00:52:36 EDT" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaibiirsingh1312@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateerrorcode -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:36 EDT" name="closebrowser" finished-at="2023-09-13T00:52:36 EDT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:36 EDT" name="launchapplication" finished-at="2023-09-13T00:52:45 EDT" duration-ms="8629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="validateerrorcode(java.lang.String,java.lang.String)[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:45 EDT" name="validateerrorcode" data-provider="getdataerror" finished-at="2023-09-13T00:52:47 EDT" duration-ms="1729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajibirsingh1255@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateerrorcode -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:POMproject.WebsiteTestingMay2023.ErrorValidationTest@609e8838]" started-at="2023-09-13T00:52:47 EDT" name="closebrowser" finished-at="2023-09-13T00:52:47 EDT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- POMproject.WebsiteTestingMay2023.ErrorValidationTest -->
+      <class name="cucumber.TestNgRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNgRunner1@5a63f509]" started-at="2023-09-13T00:50:27 EDT" name="setUpClass" finished-at="2023-09-13T00:50:29 EDT" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c8e8fed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNgRunner1@5a63f509]" started-at="2023-09-13T00:50:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-13T00:50:39 EDT" duration-ms="10018" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test for submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from an Eccomerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'Logged in using usernamejaibirsingh1312@gmail.com and password123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh1312@gmail.com and password123456")
+public void logged_in_using_usernamejaibirsingh1312_gmail_com_and_password123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productadidas original in the cart")
+public void i_add_productadidas_original_in_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderadidas original and submit order")
+public void checkout_page_verify_orderadidas_original_and_submit_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Logged in using usernamejaibirsingh1312@gmail.com and password123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh1312@gmail.com and password123456")
+public void logged_in_using_usernamejaibirsingh1312_gmail_com_and_password123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productadidas original in the cart")
+public void i_add_productadidas_original_in_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderadidas original and submit order")
+public void checkout_page_verify_orderadidas_original_and_submit_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNgRunner1@5a63f509]" started-at="2023-09-13T00:50:39 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-13T00:50:48 EDT" duration-ms="9354" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test for submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from an Eccomerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456")
+public void logged_in_using_usernamejaibirsingh131213_gmail_com_and_password_ks123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productzara coat {int} in the cart")
+public void i_add_productzara_coat_in_the_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderzara coat {int} and submit order")
+public void checkout_page_verify_orderzara_coat_and_submit_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456")
+public void logged_in_using_usernamejaibirsingh131213_gmail_com_and_password_ks123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productzara coat {int} in the cart")
+public void i_add_productzara_coat_in_the_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderzara coat {int} and submit order")
+public void checkout_page_verify_orderzara_coat_and_submit_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNgRunner1@5a63f509]" started-at="2023-09-13T00:50:48 EDT" name="tearDownClass" finished-at="2023-09-13T00:50:48 EDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNgRunner1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

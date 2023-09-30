@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 142.027 s <<< FAILURE! - in TestSuite
+runScenario(cucumber.TestNgRunner1)  Time elapsed: 10.036 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Logged in using usernamejaibirsingh1312@gmail.com and password123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh1312@gmail.com and password123456")
+public void logged_in_using_usernamejaibirsingh1312_gmail_com_and_password123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productadidas original in the cart")
+public void i_add_productadidas_original_in_the_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderadidas original and submit order")
+public void checkout_page_verify_orderadidas_original_and_submit_order() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+runScenario(cucumber.TestNgRunner1)  Time elapsed: 9.349 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in using usernamejaibirsingh131213@gmail.com and password@Ks123456")
+public void logged_in_using_usernamejaibirsingh131213_gmail_com_and_password_ks123456() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I add productzara coat {int} in the cart")
+public void i_add_productzara_coat_in_the_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("checkoutPage verify orderzara coat {int} and submit order")
+public void checkout_page_verify_orderzara_coat_and_submit_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

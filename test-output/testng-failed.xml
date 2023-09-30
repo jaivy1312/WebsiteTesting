@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="POMproject.websiteTestComponents.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Errorvalidatetest(failed)">
+    <classes>
+      <class name="POMproject.WebsiteTestingMay2023.ErrorValidationTest">
+        <methods>
+          <include name="validateerrorcode"/>
+          <include name="launchapplication"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- POMproject.WebsiteTestingMay2023.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Errorvalidatetest(failed) -->
+  <test thread-count="5" parallel="tests" name="Submittest(failed)">
+    <classes>
+      <class name="POMproject.WebsiteTestingMay2023.BaseShoppingTest">
+        <methods>
+          <include name="verifyordertest"/>
+          <include name="launchapplication"/>
+          <include name="closebrowser"/>
+          <include name="verifycarttest"/>
+          <include name="submittest"/>
+        </methods>
+      </class> <!-- POMproject.WebsiteTestingMay2023.BaseShoppingTest -->
+    </classes>
+  </test> <!-- Submittest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
