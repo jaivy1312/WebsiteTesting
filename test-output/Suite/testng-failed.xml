@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="POMproject.websiteTestComponents.ListenerTest"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Errorvalidatetest(failed)">
-    <classes>
-      <class name="POMproject.WebsiteTestingMay2023.ErrorValidationTest">
-        <methods>
-          <include name="validateerrorcode"/>
-          <include name="launchapplication"/>
-          <include name="closebrowser"/>
-        </methods>
-      </class> <!-- POMproject.WebsiteTestingMay2023.ErrorValidationTest -->
-    </classes>
-  </test> <!-- Errorvalidatetest(failed) -->
   <test thread-count="5" parallel="tests" name="Submittest(failed)">
     <classes>
       <class name="POMproject.WebsiteTestingMay2023.BaseShoppingTest">
@@ -28,4 +17,15 @@
       </class> <!-- POMproject.WebsiteTestingMay2023.BaseShoppingTest -->
     </classes>
   </test> <!-- Submittest(failed) -->
+  <test thread-count="5" parallel="tests" name="Errorvalidatetest(failed)">
+    <classes>
+      <class name="POMproject.WebsiteTestingMay2023.ErrorValidationTest">
+        <methods>
+          <include name="validateerrorcode"/>
+          <include name="launchapplication"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- POMproject.WebsiteTestingMay2023.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Errorvalidatetest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -101,9 +101,7 @@
     <groupId>com.relevantcodes</groupId>
     <artifactId>extentreports</artifactId>
     <version>2.41.2</version>
-    
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.redhat.qe/testng-listeners -->
+  </dependency>
 <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 <dependency>
     <groupId>org.freemarker</groupId>
